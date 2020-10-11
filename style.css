@@ -1,0 +1,37 @@
+/*Image as Background*/
+body{
+    background: url("Assets/Images/TheDream.JPG");
+    background-repeat: none;
+    background-size: 100%;
+    display: cover;
+}
+
+/*Re-sizing images on "Portrait" page*/
+.img-resize{
+    margin-bottom: 20px;
+    border: 2px solid white;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+/*Navbar Padding*/
+nav {
+    margin-bottom: 20px;
+    
+}
+
+/*Padding For All Containers*/
+.container-fluid {
+        padding: 20px;
+
+}
+
+/*Font Family For All Text*/
+a, h1, h2, p, label{ 
+    font-family: 'Lobster', cursive;  
+}
+
+/*Font size for Description*/
+p {
+    font-size: 25px;
+}
